@@ -1,19 +1,48 @@
 body {
-    background-color: bisque;
-    color: blue;
-    font-size: 25px;
+    background-color: #add8e6;
+    color: #303C6C;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 50px;
 }
 
-h1 {
-
-    color: blueviolet
+#date {
+    margin: 10px;
 }
 
-.main-header {
-    color: white;
-
+#title {
+    color: #303C6C;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    margin-top: 10px;
 }
 
-#id {
-    color: purple;
+.italics {
+    font-style: italic;
+}
+
+img {
+width: 20%;
+height: auto;
+}
+
+#heart {
+    width: 15%;
+    height: auto;
+}
+
+#seals {
+    width: 25%;
+    height: auto;
+}
+
+.first {
+    background-color: antiquewhite;
+    padding: 20px 50px;
+}
+
+.second {
+    background-color: antiquewhite;
+    padding: 20px 50px;
 }
