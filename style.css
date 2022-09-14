@@ -1,44 +1,98 @@
 body {
-    background-color: #add8e6;
-    color: #303C6C;
-    font-size: 25px;
+    background-color: #f8edeb;
+    color: #835C3B;
+    font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    padding: 50px;
 }
 
-#info {
-    font-size: 20px;
-}
-
-#title {
-    color: #303C6C;
+.header {
     font-family: 'Playfair Display', serif;
     font-size: 50px;
-    margin-top: 10px;
+    margin: 20px;
+    margin-bottom: 10px;
+    padding: 25px;
+    background-image: url(https://marketplace.canva.com/EAEthkBVLfQ/1/0/1600w/canva-blush-wave-desktop-wallpaper-drvq3zaYl2E.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    letter-spacing: 5px;
+    margin: 10px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding-bottom: 25px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+}
+
+h4 {
+    font-style: italic;
+    letter-spacing: 0.5px;
 }
 
 img {
-width: 25%;
-height: auto;
-}
-
-#seals {
-    width: 25%;
+    width: 300px;
     height: auto;
+    margin: 20px;
+    border-radius: 10px;
 }
 
-#readmore {
-    font-size: 25px;
+.blogposts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#link {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    background-color: #f8edeb;
+    margin: 25px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 100px;
 }
 
 .first {
-    background-color: antiquewhite;
+    background-color: #fcd5ce;
     padding: 20px 50px;
-
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    margin: 20px;
+    border-radius: 10px;
 }
 
 .second {
-    background-color: antiquewhite;
+    background-color: #fae1dd;
     padding: 20px 50px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.third {
+    background-color: #f8dcc4;
+    padding: 20px 50px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    margin: 20px;
+    border-radius: 10px;
 }
