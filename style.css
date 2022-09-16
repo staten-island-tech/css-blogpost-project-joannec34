@@ -1,7 +1,7 @@
 body {
-    background-color: #f8edeb;
-    color: #835C3B;
-    font-size: 18px;
+    background-color: rgb(48, 68, 79);
+    color: #f8edeb;
+    font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
@@ -10,8 +10,8 @@ body {
     font-family: 'Playfair Display', serif;
     margin: -8px;
     margin-bottom: 10px;
-    padding: 30px;
-    background-image: url(https://marketplace.canva.com/EAEthkBVLfQ/1/0/1600w/canva-blush-wave-desktop-wallpaper-drvq3zaYl2E.jpg);
+    padding: 40px;
+    background-image: url(header.png);
     background-size: 100% 200%;
 }
 
@@ -24,6 +24,7 @@ h1 {
 h2 {
     font-size: 30px;
     font-style: italic;
+    font-weight: 400;
     letter-spacing: 2px;
     margin: 0px;
     padding-bottom: 25px;
@@ -31,20 +32,28 @@ h2 {
 
 h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 400;
     letter-spacing: 0.5px;
 }
 
 h4 {
     font-style: italic;
+    font-weight: 400;
     letter-spacing: 0.5px;
 }
 
 img {
-    width: 300px;
-    height: auto;
+    height: 300px;
+    width: auto;
     margin: 20px;
+    border: 5px solid #f8edeb;
     border-radius: 10px;
+}
+
+#divider {
+    font-size: 30px;
+
 }
 
 .blogposts {
@@ -69,34 +78,34 @@ img {
 }
 
 .first {
-    background-color: #fcd5ce;
+    background-color: #46646f;
     padding: 20px 50px;
     padding-bottom: 100px;
     flex-grow: 1;
     flex-basis: 0%;
-    margin: 10px;
+    margin: 20px;
     border-radius: 10px;
     position: relative;
 }
 
 .second {
-    background-color: #fae1dd;
+    background-color: #617e89;
     padding: 20px 50px;
     padding-bottom: 100px;
     flex-grow: 1;
     flex-basis: 0%;
-    margin: 10px;
+    margin: 20px;
     border-radius: 10px;
     position: relative;
 }
 
 .third {
-    background-color: #f8dcc4;
+    background-color: #5a7384;
     padding: 20px 50px;
     padding-bottom: 100px;
     flex-grow: 1;
     flex-basis: 0%;
-    margin: 10px;
+    margin: 20px;
     border-radius: 10px;
     position: relative;
 }
