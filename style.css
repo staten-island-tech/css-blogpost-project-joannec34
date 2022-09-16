@@ -13,7 +13,6 @@ body {
     padding: 30px;
     background-image: url(https://marketplace.canva.com/EAEthkBVLfQ/1/0/1600w/canva-blush-wave-desktop-wallpaper-drvq3zaYl2E.jpg);
     background-size: 100% 200%;
-    position: relative;
 }
 
 h1 {
@@ -44,27 +43,28 @@ h4 {
 img {
     width: 300px;
     height: auto;
-    margin: 25px;
+    margin: 20px;
     border-radius: 10px;
 }
 
 .blogposts {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+
 }
 
 #link {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     letter-spacing: 0.5px;
     background-color: #f8edeb;
-    margin: 25px;
-    padding: 5px;
+    padding: 10px;
     width: 150px;
     border-radius: 100px;
     position: absolute;
     bottom: 20px;
-    right: 30px;
+    right: 50px;
 
 }
 
@@ -73,10 +73,8 @@ img {
     padding: 20px 50px;
     padding-bottom: 100px;
     flex-grow: 1;
-    flex-shrink: 1;
     flex-basis: 0%;
-    margin: 20px;
-    margin-right: 10px;
+    margin: 10px;
     border-radius: 10px;
     position: relative;
 }
@@ -86,9 +84,8 @@ img {
     padding: 20px 50px;
     padding-bottom: 100px;
     flex-grow: 1;
-    flex-shrink: 1;
     flex-basis: 0%;
-    margin: 20px;
+    margin: 10px;
     border-radius: 10px;
     position: relative;
 }
@@ -98,10 +95,8 @@ img {
     padding: 20px 50px;
     padding-bottom: 100px;
     flex-grow: 1;
-    flex-shrink: 1;
     flex-basis: 0%;
-    margin: 20px;
-    margin-left: 10px;
+    margin: 10px;
     border-radius: 10px;
     position: relative;
 }
