@@ -17,7 +17,6 @@ body {
 
 h1 {
     font-size: 80px;
-    letter-spacing: 5px;
     margin: 10px;
 }
 
@@ -34,13 +33,11 @@ h3 {
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     font-weight: 400;
-    letter-spacing: 0.5px;
 }
 
 h4 {
     font-style: italic;
     font-weight: 400;
-    letter-spacing: 0.5px;
 }
 
 img {
@@ -51,18 +48,11 @@ img {
     border-radius: 10px;
 }
 
-#divider {
+.divider {
     font-size: 30px;
-
 }
 
-.blogposts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-#link {
+.link {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -73,38 +63,32 @@ img {
     position: absolute;
     bottom: 20px;
     right: 50px;
-
 }
 
-.first {
+.blogposts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.blogs {
+    padding: 20px 50px;
+    padding-bottom: 100px;
+    flex-grow: 1;
+    flex-basis: 0%;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#uno {
     background-color: #46646f;
-    padding: 20px 50px;
-    padding-bottom: 100px;
-    flex-grow: 1;
-    flex-basis: 0%;
-    margin: 20px;
-    border-radius: 10px;
-    position: relative;
 }
 
-.second {
+#dos {
     background-color: #617e89;
-    padding: 20px 50px;
-    padding-bottom: 100px;
-    flex-grow: 1;
-    flex-basis: 0%;
-    margin: 20px;
-    border-radius: 10px;
-    position: relative;
 }
 
-.third {
+#tres {
     background-color: #5a7384;
-    padding: 20px 50px;
-    padding-bottom: 100px;
-    flex-grow: 1;
-    flex-basis: 0%;
-    margin: 20px;
-    border-radius: 10px;
-    position: relative;
 }
